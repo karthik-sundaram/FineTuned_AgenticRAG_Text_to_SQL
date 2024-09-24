@@ -20,7 +20,6 @@ Key features include **Agentic RAG for dynamic schema retrieval, limited context
 **BitsandBytes Config**: The model uses 4-bit precision with FP16 for efficient memory management during training and inference.  
   
 The fine-tuning process optimizes the model for Text-to-SQL generation, ensuring that it can efficiently generate SQL queries from limited context data, making it suitable for large databases with complex schema.    
-
   
 ## Inference Pipeline
   
@@ -41,6 +40,9 @@ The inference process involves multiple steps, ensuring that SQL queries are acc
 
 4d. **Create Table Statements**: Construct SQL CREATE statements with relevant column names and data types.  
   
+  ![image](https://github.com/user-attachments/assets/a7b837a2-11be-4b93-a888-cc7b01030650)
+  ![image](https://github.com/user-attachments/assets/279faad1-ac6c-4933-b8fc-5813179dc58e)
+       
 5. **Combine Schema with User Query**: Combine the user query and retrieved schema information with the system prompt.
       
 6. **Tokenize and Generate SQL**: Tokenize the enhanced input and generate the SQL query using the fine-tuned LLM model.
