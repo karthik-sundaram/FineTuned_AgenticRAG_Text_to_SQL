@@ -10,7 +10,7 @@ Key features include **Agentic RAG for dynamic schema retrieval, limited context
 
   
 ## Model Architecture and Fine-tuning  
-  
+    
 **Base Model**: meta-llama/Meta-Llama-3-8B-Instruct   
   
 **Dataset**: b-mc2/sql-create-context    
@@ -23,6 +23,7 @@ The fine-tuning process optimizes the model for Text-to-SQL generation, ensuring
 
   
 ## Inference Pipeline
+  
 The inference process involves multiple steps, ensuring that SQL queries are accurately generated based on user input and database schema:
 
 1. **Create FAISS Index**: Initialize and embed column descriptions, storing them in FAISS for efficient retrieval.
@@ -61,10 +62,12 @@ f"Respond with only '1' if they are the same or '0' if they are not. Provide no 
 Using this approach, the model achieved **91% accuracy**, confirming_ that the generated queries are functionally equivalent to the reference queries.
 
 ## Kaggle Notebook Link:
+  
 https://www.kaggle.com/code/karthiksundaram123/text-to-sql-agentic-rag
-
+   
+   
 ## Watch a small demo here:
-
+  
 [![Watch the video](https://img.youtube.com/vi/9oRBBAJS7tk/maxresdefault.jpg)](https://youtu.be/9oRBBAJS7tk)  
 
 
