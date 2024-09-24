@@ -8,6 +8,7 @@ FineTuned_AgenticRAG_Text_to_SQL is a fine-tuned Retrieval-Augmented Generation 
 
 Key features include **Agentic RAG for dynamic schema retrieval, limited context query reconstruction, and efficient fine-tuning techniques like PEFT and QLoRA.**
 
+  
 ## Model Architecture and Fine-tuning  
   
 **Base Model**: meta-llama/Meta-Llama-3-8B-Instruct   
@@ -20,6 +21,7 @@ Key features include **Agentic RAG for dynamic schema retrieval, limited context
   
 The fine-tuning process optimizes the model for Text-to-SQL generation, ensuring that it can efficiently generate SQL queries from limited context data, making it suitable for large databases with complex schema.    
 
+  
 ## Inference Pipeline
 The inference process involves multiple steps, ensuring that SQL queries are accurately generated based on user input and database schema:
 
@@ -45,7 +47,8 @@ The inference process involves multiple steps, ensuring that SQL queries are acc
 7. **Execute SQL Query**: Execute the generated SQL query against the database.
     
 8. **Display Results**: Format and display the results for the user.  
-     
+
+       
 ## Model Evaluation
   
 The generated SQL queries were evaluated against reference queries using the **meta-llama/Meta-Llama-3-70B-Instruct model as a judge**. The following prompt was used to assess whether the generated queries matched the reference queries:  
@@ -56,4 +59,14 @@ f"Reference Query:\n{reference_query}\n\n"
 f"Respond with only '1' if they are the same or '0' if they are not. Provide no other explanation."_**  
 
 Using this approach, the model achieved **91% accuracy**, confirming_ that the generated queries are functionally equivalent to the reference queries.
+
+## Kaggle Notebook Link:
+https://www.kaggle.com/code/karthiksundaram123/text-to-sql-agentic-rag
+
+## Watch a small demo here:
+
+[![Watch the video](https://img.youtube.com/vi/9oRBBAJS7tk/maxresdefault.jpg)](https://youtu.be/9oRBBAJS7tk)  
+
+
+
 
