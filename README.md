@@ -48,7 +48,7 @@ The inference process involves multiple steps, ensuring that SQL queries are acc
     
 8. **Display Results**: Format and display the results for the user.  
     
-### AGENTIC RAG WORKING SAMPLE:
+## AGENTIC RAG WORKING SAMPLE:
   
   ![image](https://github.com/user-attachments/assets/ac67f30b-5fbe-45ac-b2b6-efcc1a9fbea4)
   
