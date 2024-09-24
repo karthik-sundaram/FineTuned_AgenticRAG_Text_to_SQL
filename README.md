@@ -40,9 +40,6 @@ The inference process involves multiple steps, ensuring that SQL queries are acc
 
 4d. **Create Table Statements**: Construct SQL CREATE statements with relevant column names and data types.  
   
-  ![image](https://github.com/user-attachments/assets/a7b837a2-11be-4b93-a888-cc7b01030650)
-  ![image](https://github.com/user-attachments/assets/279faad1-ac6c-4933-b8fc-5813179dc58e)
-       
 5. **Combine Schema with User Query**: Combine the user query and retrieved schema information with the system prompt.
       
 6. **Tokenize and Generate SQL**: Tokenize the enhanced input and generate the SQL query using the fine-tuned LLM model.
@@ -50,8 +47,8 @@ The inference process involves multiple steps, ensuring that SQL queries are acc
 7. **Execute SQL Query**: Execute the generated SQL query against the database.
     
 8. **Display Results**: Format and display the results for the user.  
-
-       
+  
+                
 ## Model Evaluation
   
 The generated SQL queries were evaluated against reference queries using the **meta-llama/Meta-Llama-3-70B-Instruct model as a judge**. The following prompt was used to assess whether the generated queries matched the reference queries:  
@@ -72,6 +69,11 @@ https://www.kaggle.com/code/karthiksundaram123/text-to-sql-agentic-rag
   
 [![Watch the video](https://img.youtube.com/vi/9oRBBAJS7tk/maxresdefault.jpg)](https://youtu.be/9oRBBAJS7tk)  
 
+        
+### AGENTIC RAG WORKING SAMPLE:
+  
+  ![image](https://github.com/user-attachments/assets/a7b837a2-11be-4b93-a888-cc7b01030650)
+  ![image](https://github.com/user-attachments/assets/279faad1-ac6c-4933-b8fc-5813179dc58e)
 
 
 
