@@ -47,8 +47,15 @@ The inference process involves multiple steps, ensuring that SQL queries are acc
 7. **Execute SQL Query**: Execute the generated SQL query against the database.
     
 8. **Display Results**: Format and display the results for the user.  
+    
+### AGENTIC RAG WORKING SAMPLE:
   
-                
+  ![image](https://github.com/user-attachments/assets/ac67f30b-5fbe-45ac-b2b6-efcc1a9fbea4)
+  
+  ![image](https://github.com/user-attachments/assets/3d4d99a3-55d9-4018-960d-fcbb8af7089e)
+   
+
+            
 ## Model Evaluation
   
 The generated SQL queries were evaluated against reference queries using the **meta-llama/Meta-Llama-3-70B-Instruct model as a judge**. The following prompt was used to assess whether the generated queries matched the reference queries:  
@@ -70,10 +77,5 @@ https://www.kaggle.com/code/karthiksundaram123/text-to-sql-agentic-rag
 [![Watch the video](https://img.youtube.com/vi/9oRBBAJS7tk/maxresdefault.jpg)](https://youtu.be/9oRBBAJS7tk)  
 
         
-### AGENTIC RAG WORKING SAMPLE:
-  
-  ![image](https://github.com/user-attachments/assets/a7b837a2-11be-4b93-a888-cc7b01030650)
-  ![image](https://github.com/user-attachments/assets/279faad1-ac6c-4933-b8fc-5813179dc58e)
-
 
 
