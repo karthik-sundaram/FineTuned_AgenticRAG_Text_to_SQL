@@ -47,9 +47,11 @@ The inference process involves multiple steps, ensuring that SQL queries are acc
 7. **Execute SQL Query**: Execute the generated SQL query against the database.
     
 8. **Display Results**: Format and display the results for the user.  
-    
+
+      
 ## AGENTIC RAG WORKING SAMPLE:
-  
+
+       
   ![image](https://github.com/user-attachments/assets/ac67f30b-5fbe-45ac-b2b6-efcc1a9fbea4)
   
   ![image](https://github.com/user-attachments/assets/3d4d99a3-55d9-4018-960d-fcbb8af7089e)
